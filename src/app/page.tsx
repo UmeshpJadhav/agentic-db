@@ -36,7 +36,7 @@ export default function Chat() {
           {messages.length === 0 ? (
             <div className="flex items-center justify-center h-full">
               <p className="text-center text-3xl text-foreground dark:text-white">
-                How Can I Help You
+                Your AI Database Assistant
               </p>
             </div>
           ) : (

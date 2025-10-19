@@ -19,8 +19,9 @@ export async function POST(req: Request) {
 
 Rules:
 -Generate ONLY SELECT queries (no INSERT, UPDATE, DELETE, DROP)
--Always use the schema provided by the schema tool
--Return valid SQLite syntax
+-Always use the schema provided by the schema tool.
+-pass in valid sql syntax in db tool.
+- IMPORTANT : TO query databse call db tool, Don't return just sql query.
 
 Always respond in a helpful, conversational tone while being technically accurate.`;
 
